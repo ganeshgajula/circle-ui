@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href="/get-started.css" />
+    <link rel="stylesheet" href="/lib/styles.css" />
+
+    <title>
+      Circle UI - A simple component library to kick start your application
+      design.
+    </title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        src="/images/logo.png"
+        width="170px"
+        height="60px"
+        alt="logo-img"
+        class="logo-img"
+      />
+      <ul class="nav-list">
+        <li><a class="nav-link" href="/index.html">Home</a></li>
+        <li><a class="nav-link link-active" href="#">Docs</a></li>
+        <li><a class="nav-link" href="#">Github</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-content">
+      <aside class="side-navigation">
+        <div class="getting-started-link active-side-nav">
+          <a href="/getting-started.html">GETTING STARTED</a>
+        </div>
+        <div class="components-list-btn">
+          <a href="#">COMPONENTS</a>
+        </div>
+        <ul class="side-nav-items-list">
+          <li class="side-nav-item">
+            <a href="/components/avatar.html">Avatar</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/alert.html">Alert</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/badge.html">Badge</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/button.html">Button</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/card.html">Card</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/image.html">Image</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/input.html">Input</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/lists.html">Lists</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/modal.html">Modal</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/navigation.html">Navigation</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/rating.html">Rating</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/simple-grid.html">Simple Grid</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/text-utilities.html">Text Utilities</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/toast.html">Toast</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-page-content">
+        <section class="section-content">
+          <h1>Badge</h1>
+          <p>
+            Badges are used to highlight an item's status for quick recognition.
+          </p>
+          <div class="badge-container">
+            <span class="badge-item default-bdg">DEFAULT</span>
+            <span class="badge-item success-bdg">SUCCESS</span>
+            <span class="badge-item removed-bdg">REMOVED</span>
+            <span class="badge-item new-purple-bdg">NEW</span>
+            <span class="badge-item new-green-bdg">NEW</span>
+            <span class="badge-item-sm new-purple-bdg">NEW</span>
+            <span class="badge-item-sm new-green-bdg">NEW</span>
+          </div>
+
+          <pre class="component-code-container">
+          <code class="html">
+            &lt;span class="badge-item default-bdg"&gt;DEFAULT&lt;/span&gt;
+            &lt;span class="badge-item success-bdg"&gt;SUCCESS&lt;/span&gt;
+            &lt;span class="badge-item removed-bdg"&gt;REMOVED&lt;/span&gt;
+            &lt;span class="badge-item new-purple-bdg"&gt;NEW&lt;/span&gt;
+            &lt;span class="badge-item new-green-bdg"&gt;NEW&lt;/span&gt;
+            &lt;span class="badge-item-sm new-purple-bdg"&gt;NEW&lt;/span&gt;
+            &lt;span class="badge-item-sm new-green-bdg"&gt;NEW&lt;/span&gt;
+          </code>
+        </pre>
+        </section>
+        <section class="section-content">
+          <h2>Badge on icons</h2>
+          <p>
+            In some cases, like social apps & ecommerce apps we need to show a
+            badge on the top of the icon.
+          </p>
+
+          <div class="icon-badge-container">
+            <div class="badge-on-icon-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi bell-icon"
+                width="32"
+                height="32"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21 19v1H3v-1l2-2v-6c0-3.1 2.03-5.83 5-6.71V4a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.29c2.97.88 5 3.61 5 6.71v6l2 2m-7 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <div class="icon-badge blue ic-bdg-bell-top">10</div>
+            </div>
+            <div class="badge-on-icon-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi heart-icon"
+                width="32"
+                height="32"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35z"
+                ></path>
+              </svg>
+              <div class="icon-badge blue ic-bdg-heart-top">8</div>
+            </div>
+            <div class="badge-on-icon-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi cart-icon"
+                width="32"
+                height="32"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2z"
+                ></path>
+              </svg>
+              <div class="icon-badge blue ic-bdg-cart-top">5</div>
+            </div>
+          </div>
+          <pre class="component-code-container">
+            <code class="html">
+            &lt;div class="badge-on-icon-container"&gt;
+              &lt;svg class="bell-icon"&gt;&lt;path ...&gt;&lt;/path&gt;&lt;/svg&gt;
+              &lt;div class="icon-badge blue ic-bdg-bell-top"&gt;10&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class="badge-on-icon-container"&gt;
+              &lt;svg class="heart-icon"&gt;&lt;path ...&gt;&lt;/path&gt;&lt;/svg&gt;
+              &lt;div class="icon-badge blue ic-bdg-heart-top"&gt;8&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class="badge-on-icon-container"&gt;
+              &lt;svg class="cart-icon"&gt;&lt;path ...&gt;&lt;/path&gt;&lt;/svg&gt;
+              &lt;div class="icon-badge blue ic-bdg-cart-top"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            </code>
+          </pre>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href="/get-started.css" />
+    <link rel="stylesheet" href="/lib/styles.css" />
+
+    <title>
+      Circle UI - A simple component library to kick start your application
+      design.
+    </title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        src="/images/logo.png"
+        width="170px"
+        height="60px"
+        alt="logo-img"
+        class="logo-img"
+      />
+      <ul class="nav-list">
+        <li><a class="nav-link" href="/index.html">Home</a></li>
+        <li><a class="nav-link link-active" href="#">Docs</a></li>
+        <li><a class="nav-link" href="#">Github</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-content">
+      <aside class="side-navigation">
+        <div class="getting-started-link active-side-nav">
+          <a href="/getting-started.html">GETTING STARTED</a>
+        </div>
+        <div class="components-list-btn">
+          <a href="#">COMPONENTS</a>
+        </div>
+        <ul class="side-nav-items-list">
+          <li class="side-nav-item">
+            <a href="/components/avatar.html">Avatar</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/alert.html">Alert</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/badge.html">Badge</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/button.html">Button</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/card.html">Card</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/image.html">Image</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/input.html">Input</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/lists.html">Lists</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/modal.html">Modal</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/navigation.html">Navigation</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/rating.html">Rating</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/simple-grid.html">Simple Grid</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/text-utilities.html">Text Utilities</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/toast.html">Toast</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-page-content">
+        <section class="section-content">
+          <h1>Lists</h1>
+          <p>
+            Lists are widely used to display a list of items uniformly. There
+            are different types of lists as per one's requirement and usage.
+          </p>
+          <h2>Spaced Lists</h2>
+          <ul class="list-style">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+          </ul>
+
+          <pre class="component-code-container">
+          <code class="html">
+          &lt;ul class="list-style"&gt;
+            &lt;li&gt;List Item 1&lt;/li&gt;
+            &lt;li&gt;List Item 2&lt;/li&gt;
+            &lt;li&gt;List Item 3&lt;/li&gt;
+            &lt;li&gt;List Item 4&lt;/li&gt;
+            &lt;li&gt;List Item 5&lt;/li&gt;
+          &lt;/ul&gt;
+          </code>
+        </pre>
+        </section>
+        <section class="section-content">
+          <h2>Stacked Lists</h2>
+          <p>
+            Stacked Lists are useful when we want to display notifications in
+            the app. It helps user to go through them quickly.
+          </p>
+
+          <ul class="stacked-list list-style mt">
+            <li class="stacked-list-item">
+              <div class="list-info">
+                <img
+                  src="/images/favicon.png"
+                  alt=""
+                  width="50px"
+                  height="50px"
+                />
+                <div class="list-msg-info">Order Placed Successfully!</div>
+                <div class="msg-delivery-info">10m ago</div>
+              </div>
+              <p>
+                Hey Virat, your order of Samsung A72 is successful and will be
+                delivered in 3 business days.
+              </p>
+            </li>
+            <li class="stacked-list-item">
+              <div class="list-info">
+                <img
+                  src="/images/favicon.png"
+                  alt=""
+                  width="50px"
+                  height="50px"
+                />
+                <div class="list-msg-info">Order Delivered Successfully!</div>
+                <div class="msg-delivery-info">1h ago</div>
+              </div>
+              <p>
+                Hey Rohit, your order HP pavilion gaming laptop is being
+                delivered Successfully.
+              </p>
+            </li>
+            <li class="stacked-list-item">
+              <div class="list-info">
+                <img
+                  src="/images/favicon.png"
+                  alt=""
+                  width="50px"
+                  height="50px"
+                />
+                <div class="list-msg-info">Order Placed Successfully!</div>
+                <div class="msg-delivery-info">30m ago</div>
+              </div>
+              <p>
+                Hey Manish, your order of Bose headphones is successful and will
+                be delivered in 5 business days.
+              </p>
+            </li>
+          </ul>
+
+          <pre class="component-code-container">
+            <code class="html">
+              &lt;ul class="stacked-list list-style mt"&gt;
+                &lt;li class="stacked-list-item"&gt;
+                  &lt;div class="list-info"&gt;
+                    &lt;img src="/images/favicon.png" alt="" width="50px" height="50px" /&gt;
+                    &lt;div class="list-msg-info"&gt;Order Placed Successfully!&lt;/div&gt;
+                    &lt;div class="msg-delivery-info"&gt;10m ago&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;p&gt;Hey Virat, your order of Samsung A72 is successful and will be delivered 
+                    in 3 business days.&lt;/p&gt;
+                &lt;/li&gt;
+
+                &lt;li class="stacked-list-item"&gt;
+                  &lt;div class="list-info"&gt;
+                    &lt;img src="/images/favicon.png" alt="" width="50px" height="50px" /&gt;
+                    &lt;div class="list-msg-info"&gt;Order Delivered Successfully!&lt;/div&gt;
+                    &lt;div class="msg-delivery-info"&gt;1h ago&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;p&gt;Hey Rohit, your order HP pavilion gaming laptop is being
+                    delivered Successfully.&lt;/p&gt;
+                &lt;/li&gt;
+
+                &lt;li class="stacked-list-item"&gt;
+                  &lt;div class="list-info"&gt;
+                    &lt;img src="/images/favicon.png" alt="" width="50px" height="50px" /&gt;
+                    &lt;div class="list-msg-info"&gt;Order Placed Successfully!&lt;/div&gt;
+                    &lt;div class="msg-delivery-info"&gt;30m ago&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;p&gt;Hey Manish, your order of Bose headphones is successful and will
+                    be delivered in 5 business days.&lt;/p&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            </code>
+          </pre>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

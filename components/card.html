@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href="/get-started.css" />
+    <link rel="stylesheet" href="/lib/styles.css" />
+
+    <title>
+      Circle UI - A simple component library to kick start your application
+      design.
+    </title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        src="/images/logo.png"
+        width="170px"
+        height="60px"
+        alt="logo-img"
+        class="logo-img"
+      />
+      <ul class="nav-list">
+        <li><a class="nav-link" href="/index.html">Home</a></li>
+        <li><a class="nav-link link-active" href="#">Docs</a></li>
+        <li><a class="nav-link" href="#">Github</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-content">
+      <aside class="side-navigation">
+        <div class="getting-started-link active-side-nav">
+          <a href="/getting-started.html">GETTING STARTED</a>
+        </div>
+        <div class="components-list-btn">
+          <a href="#">COMPONENTS</a>
+        </div>
+        <ul class="side-nav-items-list">
+          <li class="side-nav-item">
+            <a href="/components/avatar.html">Avatar</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/alert.html">Alert</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/badge.html">Badge</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/button.html">Button</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/card.html">Card</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/image.html">Image</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/input.html">Input</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/lists.html">Lists</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/modal.html">Modal</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/navigation.html">Navigation</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/rating.html">Rating</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/simple-grid.html">Simple Grid</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/text-utilities.html">Text Utilities</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/toast.html">Toast</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-page-content">
+        <section class="section-content">
+          <h1>Card</h1>
+          <p>
+            Cards are surfaces that display content and actions on a single
+            topic. They are widely used to display information pertaining to a
+            topic with a combination of image,text & a button to perform some
+            action.
+          </p>
+          <div class="card-container">
+            <h2>Horizontal Card</h2>
+            <div class="card-content-horizontal">
+              <img
+                src="/images/book-img.jpg"
+                alt=""
+                width="180px"
+                height="225px"
+              />
+              <div>
+                <h1>Life's Amazing Secrets</h1>
+                <p>
+                  Life's Amazing Secrets: How to Find Balance and Purpose in
+                  Your Life is an engaging philosophical book that deals with
+                  deep and meaningful conversations on life between Gaur Gopal
+                  Das himself and his wealthy friend Harry.
+                </p>
+                <span>Sold by: Retailnet</span>
+                <div>
+                  <span class="discount-price">Rs.176</span>
+                  <span class="mrp-price">Rs.250</span>
+                  <span class="discount-percent">(29% off)</span>
+                </div>
+                <button class="btn btn-icon mt">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--mdi"
+                    width="22"
+                    height="22"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2z"
+                    ></path>
+                  </svg>
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+            <pre class="component-code-container">
+              <code class="html">
+              &lt;div class="card-content-horizontal"&gt;
+                &lt;img src="/images/book-img.jpg" alt="" width="180px" height="220px"/&gt;
+                &lt;div&gt;
+                  &lt;h1&gt;Life's Amazing Secrets&lt;/h1&gt;
+                  &lt;p&gt;....&lt;/p&gt;
+                  &lt;span&gt;...&lt;/span&gt;
+                  &lt;div&gt;
+                    &lt;span class="discount-price"&gt;...&lt;/span&gt;
+                    &lt;span class="mrp-price"&gt;..&lt;/span&gt;
+                    &lt;span class="discount-percent"&gt;...&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;button class="btn btn-icon mt"&gt;&lt;svg&gt;&lt;/svg&gt;Add to Cart&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              </code>
+            </pre>
+            <h2>Vertical Card</h2>
+            <div class="card-content-vertical">
+              <img
+                src="/images/book-img.jpg"
+                alt=""
+                width="265px"
+                height="240px"
+              />
+              <div>
+                <h1>Life's Amazing Secrets</h1>
+                <p>
+                  Life's Amazing Secrets: How to Find Balance and Purpose in
+                  Your Life is an engaging philosophical book that deals with
+                  deep and meaningful conversations on life between Gaur Gopal
+                  Das himself and his wealthy friend Harry.
+                </p>
+                <span>Sold by: Retailnet</span>
+                <div>
+                  <span class="discount-price">Rs.176</span>
+                  <span class="mrp-price">Rs.250</span>
+                  <span class="discount-percent">(29% off)</span>
+                </div>
+                <button class="btn btn-icon mt">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--mdi"
+                    width="22"
+                    height="22"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2z"
+                    ></path>
+                  </svg>
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+            <pre class="component-code-container">
+              <code class="html">
+              &lt;div class="card-content-vertical"&gt;
+                &lt;img src="/images/book-img.jpg" alt="" width="180px" height="220px"/&gt;
+                &lt;div&gt;
+                  &lt;h1&gt;Life's Amazing Secrets&lt;/h1&gt;
+                  &lt;p&gt;....&lt;/p&gt;
+                  &lt;span&gt;...&lt;/span&gt;
+                  &lt;div&gt;
+                    &lt;span class="discount-price"&gt;...&lt;/span&gt;
+                    &lt;span class="mrp-price"&gt;..&lt;/span&gt;
+                    &lt;span class="discount-percent"&gt;...&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;button class="btn btn-icon mt"&gt;&lt;svg&gt;&lt;/svg&gt;Add to Cart&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              </code>
+            </pre>
+            <h2>Horizontal card with badge</h2>
+            <div class="card-content-horizontal card-with-badge">
+              <img
+                src="/images/book-img.jpg"
+                alt=""
+                width="180px"
+                height="225px"
+              />
+              <span class="badge-item-sm new-green-bdg bdg-card-position"
+                >NEW</span
+              >
+              <div>
+                <h1>Life's Amazing Secrets</h1>
+                <p>
+                  Life's Amazing Secrets: How to Find Balance and Purpose in
+                  Your Life is an engaging philosophical book that deals with
+                  deep and meaningful conversations on life between Gaur Gopal
+                  Das himself and his wealthy friend Harry.
+                </p>
+                <span>Sold by: Retailnet</span>
+                <div>
+                  <span class="discount-price">Rs.176</span>
+                  <span class="mrp-price">Rs.250</span>
+                  <span class="discount-percent">(29% off)</span>
+                </div>
+                <button class="btn btn-icon mt">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--mdi"
+                    width="22"
+                    height="22"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2z"
+                    ></path>
+                  </svg>
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+            <pre class="component-code-container">
+              <code class="html">
+              &lt;div class="card-content-horizontal card-with-badge"&gt;
+                &lt;img src="/images/book-img.jpg" alt="" width="180px" height="220px"/&gt;
+                &lt;span class="badge-item-sm new-green-bdg bdg-card-position"&gt;NEW&lt;/span&gt;
+                &lt;div&gt;
+                  &lt;h1&gt;Life's Amazing Secrets&lt;/h1&gt;
+                  &lt;p&gt;....&lt;/p&gt;
+                  &lt;span&gt;...&lt;/span&gt;
+                  &lt;div&gt;
+                    &lt;span class="discount-price"&gt;...&lt;/span&gt;
+                    &lt;span class="mrp-price"&gt;..&lt;/span&gt;
+                    &lt;span class="discount-percent"&gt;...&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;button class="btn btn-icon mt"&gt;&lt;svg&gt;&lt;/svg&gt;Add to Cart&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              </code>
+            </pre>
+            <h2>Text Only Card</h2>
+            <div class="card-content-vertical text-only-card">
+              <h3>Card Title</h3>
+              <h5>Card Subtitle</h5>
+              <p>
+                This is a sample example of a text only card. These are used a
+                lot on blog sites where in blog title and small content is shown
+                and consists of a read more button to read entire article.
+              </p>
+              <button class="btn">Read More</button>
+            </div>
+            <pre class="component-code-container">
+              <code class="html">
+              &lt;div class="card-content-vertical text-only-card"&gt;
+                &lt;h3&gt;Card Title&lt;/h3&gt;
+                &lt;h5&gt;Card Subtitle&lt;/h5&gt;
+                &lt;p&gt;...&lt;/p&gt;
+                &lt;button class="btn"&gt;...&lt;/button&gt;
+              &lt;/div&gt;
+              </code>
+            </pre>
+            <h2>Card with dismiss button</h2>
+            <div class="card-content-vertical card-with-dismiss">
+              <img
+                src="/images/book-img.jpg"
+                alt=""
+                width="265px"
+                height="240px"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi close-btn-on-card"
+                width="32"
+                height="32"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2c5.53 0 10 4.47 10 10s-4.47 10-10 10S2 17.53 2 12S6.47 2 12 2m3.59 5L12 10.59L8.41 7L7 8.41L10.59 12L7 15.59L8.41 17L12 13.41L15.59 17L17 15.59L13.41 12L17 8.41L15.59 7z"
+                ></path>
+              </svg>
+              <div>
+                <h1>Life's Amazing Secrets</h1>
+                <p>
+                  Life's Amazing Secrets: How to Find Balance and Purpose in
+                  Your Life is an engaging philosophical book that deals with
+                  deep and meaningful conversations on life between Gaur Gopal
+                  Das himself and his wealthy friend Harry.
+                </p>
+                <span>Sold by: Retailnet</span>
+                <div>
+                  <span class="discount-price">Rs.176</span>
+                  <span class="mrp-price">Rs.250</span>
+                  <span class="discount-percent">(29% off)</span>
+                </div>
+                <button class="btn btn-icon mt">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--mdi"
+                    width="22"
+                    height="22"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2z"
+                    ></path>
+                  </svg>
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+            <pre class="component-code-container">
+              <code class="html">
+              &lt;div class="card-content-vertical card-with-dismiss"&gt;
+                &lt;img src="/images/book-img.jpg" alt="" width="180px" height="220px"/&gt;
+                &lt;svg class="close-btn-on-card" ...&gt;&lt;/svg&gt;
+                &lt;div&gt;
+                  &lt;h1&gt;Life's Amazing Secrets&lt;/h1&gt;
+                  &lt;p&gt;....&lt;/p&gt;
+                  &lt;span&gt;...&lt;/span&gt;
+                  &lt;div&gt;
+                    &lt;span class="discount-price"&gt;...&lt;/span&gt;
+                    &lt;span class="mrp-price"&gt;..&lt;/span&gt;
+                    &lt;span class="discount-percent"&gt;...&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;button class="btn btn-icon mt"&gt;&lt;svg&gt;&lt;/svg&gt;Add to Cart&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
