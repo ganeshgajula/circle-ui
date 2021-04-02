@@ -547,10 +547,19 @@ h5 {
 .modal-container {
   background-color: var(--gray-color);
   padding: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.5);
 }
 
 .modal {
   background-color: #fff;
+  position: relative;
+  top: 15rem;
+  left: 30rem;
   padding: 1rem;
   max-width: 30%;
   border-radius: 0.5rem;
@@ -734,6 +743,8 @@ h5 {
 
   .modal {
     max-width: 95%;
+    top: 15rem;
+    left: 0.8rem;
   }
 
   .alert {
@@ -857,7 +868,9 @@ h5 {
   }
 
   .modal {
-    max-width: 95%;
+    max-width: 75%;
+    top: 16rem;
+    left: 5rem;
   }
 
   .alert {
