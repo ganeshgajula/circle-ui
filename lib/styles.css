@@ -431,6 +431,11 @@ body {
   border-radius: 1rem;
 }
 
+.vertical-card-image {
+  object-fit: cover;
+  min-height: 48vh;
+}
+
 .discount-price {
   font-weight: bold;
 }
@@ -796,18 +801,12 @@ h5 {
   }
 
   .badge-container {
-    /* display: flex;
-    flex-direction: column; */
     gap: 0.8rem;
   }
 
   .badge-item {
     font-size: 10px;
   }
-
-  /* .new-purple-bdg {
-    display: none;
-  } */
 
   .button-container {
     gap: 0.7rem;
