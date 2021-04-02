@@ -152,12 +152,17 @@
             primary window. When the dialog window appers on some action, user
             cannot interact with the content behind the modal.
           </p>
+          <button class="show-modal-btn btn btn-primary mb-1">
+            Show Modal
+          </button>
           <div class="modal-container">
             <div class="modal">
               <h2>Delete Account</h2>
               <p>Do you want to delete your account ?</p>
-              <button class="btn">Delete</button>
-              <button class="btn btn-outline ml">Cancel</button>
+              <button class="btn modal-primary-action-btn">Delete</button>
+              <button class="btn btn-outline ml modal-secondary-action-btn">
+                Cancel
+              </button>
             </div>
           </div>
 
@@ -174,5 +179,6 @@
         </section>
       </main>
     </div>
+    <script src="/modal.js"></script>
   </body>
 </html>

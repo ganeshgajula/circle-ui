@@ -96,13 +96,13 @@ body {
   color: #fff;
 }
 
-.github-btn {
+.gray-btn {
   margin-left: 1rem;
   background-color: var(--gray-color);
   color: var(--black-color);
 }
 
-.github-btn > span {
+.gray-btn > span {
   margin-left: 0.4rem;
   font-weight: 600;
 }
