@@ -125,6 +125,11 @@ body {
   border-radius: 0.4rem;
 }
 
+.active-side-nav > a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
 .component-code-container {
   background-color: var(--code-snippet-color);
   color: #fff;
