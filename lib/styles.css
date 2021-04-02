@@ -22,6 +22,7 @@
   --heart-icon-color: #e31b23;
   --cart-icon-color: #fbbf24;
   --rating-icon-color: #fbb524;
+  --white-color: #fff;
 }
 
 body {
@@ -29,12 +30,10 @@ body {
 }
 
 /* Avatar Component */
-
 /* Avatar with different sizes */
 
 .avatar-container {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .section-content > p {
@@ -93,7 +92,7 @@ body {
 
 .component-code-container {
   background-color: var(--code-snippet-color);
-  color: #fff;
+  color: var(--white-color);
   width: 90%;
   border-radius: 1rem;
   padding: 1rem 0 0;
@@ -115,7 +114,7 @@ body {
   width: 0.9rem;
   height: 0.9rem;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid var(--white-color);
 }
 
 .bdg-green {
@@ -125,14 +124,14 @@ body {
 .xsm-bdg-position {
   position: absolute;
   bottom: 1.6rem;
-  right: 0px;
+  right: 0rem;
 }
 
 .sm-badge {
   width: 1.2rem;
   height: 1.2rem;
   border-radius: 50%;
-  border: 2.95px solid #fff;
+  border: 2.95px solid var(--white-color);
 }
 
 .sm-bdg-position {
@@ -145,7 +144,7 @@ body {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid var(--white-color);
 }
 
 .md-bdg-position {
@@ -274,7 +273,7 @@ body {
 
 .blue {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--white-color);
 }
 
 .bell-icon {
@@ -317,7 +316,7 @@ body {
 
 .btn-primary {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--white-color);
   border: none;
   font-size: 1rem;
   cursor: pointer;
@@ -328,7 +327,7 @@ body {
   border-radius: 0.5rem;
   border: none;
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--white-color);
   font-size: 1rem;
   cursor: pointer;
 }
@@ -354,7 +353,7 @@ body {
 }
 
 .btn-outline {
-  background-color: #fff;
+  background-color: var(--white-color);
   color: var(--black-color);
   font-size: 1rem;
   border: 2px solid var(--primary-color);
@@ -363,7 +362,7 @@ body {
 
 .link-btn > a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .link-sm > a {
@@ -394,7 +393,7 @@ body {
   width: 2.8rem;
   height: 2.8rem;
   font-size: 2.1rem;
-  color: #fff;
+  color: var(--white-color);
   padding: 0.1rem;
   border-radius: 50%;
   border: none;
@@ -561,7 +560,7 @@ h5 {
 }
 
 .modal {
-  background-color: #fff;
+  background-color: var(--white-color);
   position: relative;
   top: 15rem;
   left: 30rem;
@@ -581,7 +580,7 @@ h5 {
 }
 
 .unrated-icon {
-  fill: #fff;
+  fill: var(--white-color);
   stroke: var(--rating-icon-color);
 }
 
