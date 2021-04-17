@@ -29,6 +29,11 @@ body {
   color: var(--black-color);
 }
 
+.brand-logo {
+  width: 170px;
+  height: 60px;
+}
+
 /* Avatar Component */
 /* Avatar with different sizes */
 
