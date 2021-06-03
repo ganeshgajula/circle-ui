@@ -328,6 +328,14 @@ body {
   cursor: pointer;
 }
 
+.btn-outline {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  font-size: 1rem;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+}
+
 .btn {
   padding: 0.8rem 1.2rem;
   border-radius: 0.5rem;
@@ -338,32 +346,33 @@ body {
   cursor: pointer;
 }
 
+.btn-xs {
+  padding: 0.4rem 0.5rem;
+  font-size: 0.94rem;
+  border-radius: 0.3rem;
+}
+
 .btn-sm {
   padding: 0.5rem 0.8rem;
   border-radius: 0.4rem;
 }
 
 .btn-md {
-  padding: 0.8rem 1.2rem;
+  padding: 0.8rem 1.1rem;
   border-radius: 0.5rem;
+  font-size: 1rem;
 }
 
 .btn-lg {
   padding: 1rem 1.6rem;
   border-radius: 0.6rem;
+  font-size: 1.2rem;
 }
 
 .btn-xl {
   padding: 1.2rem 2rem;
   border-radius: 0.8rem;
-}
-
-.btn-outline {
-  background-color: var(--white-color);
-  color: var(--black-color);
-  font-size: 1rem;
-  border: 1px solid var(--primary-color);
-  cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .link-btn > a {
