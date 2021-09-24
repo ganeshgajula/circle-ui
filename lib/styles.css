@@ -673,9 +673,12 @@ h5 {
     display: none;
   }
 
+  .content-container {
+    max-width: 300px;
+    overflow-x: scroll;
+  }
+
   .badge-container {
-    /* display: flex;
-    flex-direction: column; */
     gap: 0.3rem;
   }
 
@@ -728,7 +731,6 @@ h5 {
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 2rem; */
   }
 
   .responsive-img,
@@ -795,6 +797,11 @@ h5 {
   .avatar-lg,
   .avatar-xl {
     display: none;
+  }
+
+  .content-container {
+    max-width: 600px;
+    overflow-x: scroll;
   }
 
   .badge-container {
