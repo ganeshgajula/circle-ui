@@ -648,7 +648,7 @@ h5 {
 
   .navbar {
     max-width: 100%;
-    padding: 1rem 1.5rem 1rem 0;
+    padding: 0.5rem 1.5rem;
   }
 
   .nav-link {
@@ -776,7 +776,7 @@ h5 {
 
   .navbar {
     max-width: 100%;
-    padding: 1rem 1.5rem 1rem 0;
+    padding: 0.5rem 1.5rem;
   }
 
   .nav-link {

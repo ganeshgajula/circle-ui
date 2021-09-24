@@ -60,7 +60,7 @@ pre {
   left: 0;
   right: 0;
   z-index: 1;
-  padding: 1rem 6.5rem;
+  padding: 0.5rem 6.5rem;
   background-color: var(--white-color);
   border-bottom: 1px solid var(--gray-color);
 }
@@ -179,15 +179,16 @@ pre {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    padding: 1rem 1.5rem 1rem 0;
+    padding: 0.5rem 1.5rem;
   }
 
   .nav-link {
+    font-size: 0.9rem;
     margin-right: 0.8rem;
   }
 
   .nav-list a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .menu-wrap .toggler {
@@ -344,7 +345,7 @@ pre {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    padding: 1rem 1.5rem 1rem 0;
+    padding: 0.5rem 1.5rem;
   }
 
   .nav-link {
@@ -352,7 +353,7 @@ pre {
   }
 
   .nav-list a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .menu-wrap .toggler {
