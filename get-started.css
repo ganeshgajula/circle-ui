@@ -305,12 +305,12 @@ pre {
     margin: auto;
   }
 
-  .section-content h1 {
+  .section-content > h1 {
     margin-top: 3rem;
     font-size: 1.9rem;
   }
 
-  .section-content p {
+  .section-content > p {
     max-width: 325px;
   }
 
