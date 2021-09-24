@@ -678,11 +678,6 @@ h5 {
     display: none;
   }
 
-  .content-container {
-    max-width: 300px;
-    overflow-x: scroll;
-  }
-
   .badge-container {
     gap: 0.3rem;
   }
@@ -803,11 +798,6 @@ h5 {
   .avatar-lg,
   .avatar-xl {
     display: none;
-  }
-
-  .content-container {
-    max-width: 600px;
-    overflow-x: scroll;
   }
 
   .badge-container {
