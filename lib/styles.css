@@ -96,16 +96,6 @@ body {
   margin-left: 4rem;
 }
 
-.component-code-container {
-  background-color: var(--code-snippet-color);
-  color: var(--white-color);
-  width: 90%;
-  border-radius: 1rem;
-  padding: 1rem 0 0;
-  margin-top: 4rem;
-  font-size: 1.08rem;
-}
-
 /* Avatar with badge */
 
 .section-content > h2 {
@@ -683,10 +673,6 @@ h5 {
     display: none;
   }
 
-  .component-code-container {
-    max-width: 300px;
-  }
-
   .badge-container {
     /* display: flex;
     flex-direction: column; */
@@ -809,10 +795,6 @@ h5 {
   .avatar-lg,
   .avatar-xl {
     display: none;
-  }
-
-  .component-code-container {
-    max-width: 600px;
   }
 
   .badge-container {

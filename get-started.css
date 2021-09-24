@@ -19,6 +19,39 @@ body {
   margin-top: 0;
 }
 
+.content-container {
+  width: 100%;
+  border: solid 1px var(--dark-gray);
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.code-container {
+  font-size: 0.9rem;
+  color: var(--gray-color);
+  background-color: var(--code-snippet-color);
+  margin-bottom: 3rem;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.code-container::-webkit-scrollbar {
+  display: none;
+}
+
+.content-container::-webkit-scrollbar {
+  display: none;
+}
+
+pre {
+  white-space: pre-line;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -129,16 +162,6 @@ body {
 .active-side-nav > a {
   color: var(--primary-color);
   font-weight: 600;
-}
-
-.component-code-container {
-  background-color: var(--code-snippet-color);
-  color: var(--white-color);
-  width: 90%;
-  border-radius: 1rem;
-  padding: 1rem 0 0;
-  margin-top: 4rem;
-  font-size: 1.08rem;
 }
 
 .menu-wrap {
@@ -295,10 +318,6 @@ body {
     max-width: 325px;
   }
 
-  .component-code-container {
-    max-width: 300px;
-    overflow-x: scroll;
-  }
   .getting-started-link a:hover,
   .side-nav-item a:hover {
     color: var(--black-color);
@@ -457,10 +476,6 @@ body {
     max-width: 600px;
   }
 
-  .component-code-container {
-    max-width: 600px;
-    overflow-x: scroll;
-  }
   .getting-started-link a:hover,
   .side-nav-item a:hover {
     color: var(--black-color);
