@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href="/get-started.css" />
+    <link rel="stylesheet" href="/lib/styles.css" />
+
+    <title>
+      Circle UI - A simple component library to kick start your application
+      design.
+    </title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="/index.html"
+        ><img src="/images/logo.png" width="170px" height="60px" alt="logo-img"
+      /></a>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="/index.html">Home</a></li>
+        <li>
+          <a class="nav-link link-active" href="/getting-started.html">Docs</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://github.com/ganeshgajula/circle-ui"
+            >Github</a
+          >
+        </li>
+      </ul>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <aside class="side-navigation">
+          <div class="getting-started-link active-side-nav">
+            <a href="/getting-started.html">GETTING STARTED</a>
+          </div>
+          <div class="components-list-btn">COMPONENTS</div>
+          <ul class="side-nav-items-list">
+            <li class="side-nav-item">
+              <a href="/components/avatar.html">Avatar</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/alert.html">Alert</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/badge.html">Badge</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/button.html">Button</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/card.html">Card</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/image.html">Image</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/input.html">Input</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/lists.html">Lists</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/modal.html">Modal</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/rating.html">Rating</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/text-utilities.html">Text Utilities</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/toast.html">Toast</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </nav>
+
+    <div class="page-content">
+      <aside class="side-navigation">
+        <div class="getting-started-link">
+          <a href="/getting-started.html">GETTING STARTED</a>
+        </div>
+        <div class="components-list-btn">
+          <a href="#">COMPONENTS</a>
+        </div>
+        <ul class="side-nav-items-list">
+          <li class="side-nav-item">
+            <a href="/components/avatar.html">Avatar</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/alert.html">Alert</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/badge.html">Badge</a>
+          </li>
+          <li class="side-nav-item active-side-nav">
+            <a href="/components/button.html">Button</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/card.html">Card</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/image.html">Image</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/input.html">Input</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/lists.html">Lists</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/modal.html">Modal</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/rating.html">Rating</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/text-utilities.html">Text Utilities</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/toast.html">Toast</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-page-content">
+        <section class="section-content">
+          <h1>Buttons</h1>
+          <p>
+            The Button component is used to trigger an action or event when
+            clicked on it. The action can be opening a new page, closing the
+            page, navigating across the app etc.
+          </p>
+          <h2>Solid buttons with different sizes</h2>
+          <div class="button-container">
+            <button class="btn-primary btn-xs">Button</button>
+            <button class="btn-primary btn-sm">Button</button>
+            <button class="btn-primary btn-md ml">Button</button>
+            <button class="btn-primary btn-lg ml">Button</button>
+            <button class="btn-primary btn-xl ml">Button</button>
+          </div>
+
+          <pre class="content-container code-container">
+            <code>
+              &lt;button class="btn-primary btn-xs"&gt;Button&lt;/button&gt;
+              &lt;button class="btn-primary btn-sm"&gt;Button&lt;/button&gt;
+              &lt;button class="btn-primary btn-md"&gt;Button&lt;/button&gt;
+              &lt;button class="btn-primary btn-lg"&gt;Button&lt;/button&gt;
+              &lt;button class="btn-primary btn-xl"&gt;Button&lt;/button&gt;
+            </code>
+          </pre>
+        </section>
+        <section class="section-content">
+          <h2>Outline Buttons with different sizes</h2>
+          <p>
+            When we don't want to use heavy colors on our buttons, outline
+            buttons comes handy and can be easily used as a secondary button.
+          </p>
+
+          <div class="button-container">
+            <button class="btn-outline btn-xs">Button</button>
+            <button class="btn-outline btn-sm">Button</button>
+            <button class="btn-outline btn-md ml">Button</button>
+            <button class="btn-outline btn-lg ml">Button</button>
+            <button class="btn-outline btn-xl ml">Button</button>
+          </div>
+          <pre class="content-container code-container">
+            <code>
+              &lt;button class="btn-outline btn-xs"&gt;Button&lt;/button&gt;
+              &lt;button class="btn-outline btn-sm"&gt;Button&lt;/button&gt;
+              &lt;button class="btn-outline btn-md"&gt;Button&lt;/button&gt;
+              &lt;button class="btn-outline btn-lg"&gt;Button&lt;/button&gt;
+              &lt;button class="btn-outline btn-xl"&gt;Button&lt;/button&gt;
+            </code>
+          </pre>
+        </section>
+        <section class="section-content">
+          <h2>Link Button</h2>
+          <p>
+            Link buttons are very useful for navigating across the app or when
+            we want to link to any third party site.
+          </p>
+
+          <div class="button-container">
+            <button class="link-btn link-sm">
+              <a href="#">Link Button 1</a>
+            </button>
+            <button class="link-btn link-md">
+              <a href="#">Link Button 2</a>
+            </button>
+          </div>
+          <pre class="content-container code-container">
+            <code>
+              &lt;button class="link-btn link-sm"&gt;
+                &lt;a href="#">Link Button 1&lt;/a&gt;
+              &lt;/button&gt;
+
+              &lt;button class="link-btn link-md"&gt;
+                &lt;a href="#">Link Button 2&lt;/a&gt;
+              &lt;/button&gt;
+            </code>
+          </pre>
+        </section>
+        <section class="section-content">
+          <h2>Icon Button</h2>
+          <p>
+            Icon button contains the icon as a child to button element. It is
+            used for better representation or to increase visual effects.
+          </p>
+          <div class="button-container">
+            <button class="btn btn-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi"
+                width="22"
+                height="22"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2z"
+                ></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn btn-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi"
+                width="22"
+                height="22"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              Email
+            </button>
+          </div>
+          <pre class="content-container code-container">
+            <code>
+              &lt;button class="btn btn-icon"&gt;
+                &lt;svg ...&gt;&lt;/svg&gt;
+                Add to Cart
+              &lt;/button&gt;
+
+              &lt;button class="btn btn-icon"&gt;
+                &lt;svg ...&gt;&lt;/svg&gt;
+                Email
+              &lt;/button&gt;
+            </code>
+          </pre>
+        </section>
+        <section class="section-content">
+          <h2>Floating Action Button</h2>
+          <p>
+            Floating action button plays an important role on small screens. We
+            can easily add multiple actions to it which will appear on hover.
+          </p>
+
+          <button class="floating-btn">+</button>
+
+          <pre class="content-container code-container">
+            <code>
+              &lt;button class="floating-btn"&gt;+&lt;/button&gt;
+            </code>
+          </pre>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

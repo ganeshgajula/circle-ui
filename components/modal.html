@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href="/get-started.css" />
+    <link rel="stylesheet" href="/lib/styles.css" />
+
+    <title>
+      Circle UI - A simple component library to kick start your application
+      design.
+    </title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="/index.html"
+        ><img src="/images/logo.png" width="170px" height="60px" alt="logo-img"
+      /></a>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="/index.html">Home</a></li>
+        <li>
+          <a class="nav-link link-active" href="/getting-started.html">Docs</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://github.com/ganeshgajula/circle-ui"
+            >Github</a
+          >
+        </li>
+      </ul>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <aside class="side-navigation">
+          <div class="getting-started-link active-side-nav">
+            <a href="/getting-started.html">GETTING STARTED</a>
+          </div>
+          <div class="components-list-btn">COMPONENTS</div>
+          <ul class="side-nav-items-list">
+            <li class="side-nav-item">
+              <a href="/components/avatar.html">Avatar</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/alert.html">Alert</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/badge.html">Badge</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/button.html">Button</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/card.html">Card</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/image.html">Image</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/input.html">Input</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/lists.html">Lists</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/modal.html">Modal</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/rating.html">Rating</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/text-utilities.html">Text Utilities</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/toast.html">Toast</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </nav>
+
+    <div class="page-content">
+      <aside class="side-navigation">
+        <div class="getting-started-link">
+          <a href="/getting-started.html">GETTING STARTED</a>
+        </div>
+        <div class="components-list-btn">
+          <a href="#">COMPONENTS</a>
+        </div>
+        <ul class="side-nav-items-list">
+          <li class="side-nav-item">
+            <a href="/components/avatar.html">Avatar</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/alert.html">Alert</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/badge.html">Badge</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/button.html">Button</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/card.html">Card</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/image.html">Image</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/input.html">Input</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/lists.html">Lists</a>
+          </li>
+          <li class="side-nav-item active-side-nav">
+            <a href="/components/modal.html">Modal</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/rating.html">Rating</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/text-utilities.html">Text Utilities</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/toast.html">Toast</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-page-content">
+        <section class="section-content">
+          <h1>Modal</h1>
+          <p>
+            The modal component is used for creating a dialog window over the
+            primary window. When the dialog window appers on some action, user
+            cannot interact with the content behind the modal.
+          </p>
+          <button class="show-modal-btn btn btn-primary mb-1">
+            Show Modal
+          </button>
+          <div class="modal-container">
+            <div class="modal">
+              <h2>Delete Account</h2>
+              <p>Do you want to delete your account ?</p>
+              <button class="btn modal-primary-action-btn">Delete</button>
+              <button class="btn btn-outline ml modal-secondary-action-btn">
+                Cancel
+              </button>
+            </div>
+          </div>
+
+          <pre class="content-container code-container">
+            <code>
+              &lt;div class="modal"&gt;
+                &lt;h2&gt;Delete Modal&lt;/h2&gt;
+                &lt;p&gt;Do you want to delete your account ?&lt;/p&gt;
+                &lt;button class="btn"&gt;Delete&lt;/button&gt;
+                &lt;button class="btn btn-outline"&gt;Cancel&lt;/button&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </section>
+      </main>
+    </div>
+    <script src="/modal.js"></script>
+  </body>
+</html>

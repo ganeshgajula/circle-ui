@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href="/get-started.css" />
+    <link rel="stylesheet" href="/lib/styles.css" />
+
+    <title>
+      Circle UI - A simple component library to kick start your application
+      design.
+    </title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="/index.html"
+        ><img src="/images/logo.png" width="170px" height="60px" alt="logo-img"
+      /></a>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="/index.html">Home</a></li>
+        <li>
+          <a class="nav-link link-active" href="/getting-started.html">Docs</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://github.com/ganeshgajula/circle-ui"
+            >Github</a
+          >
+        </li>
+      </ul>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <aside class="side-navigation">
+          <div class="getting-started-link active-side-nav">
+            <a href="/getting-started.html">GETTING STARTED</a>
+          </div>
+          <div class="components-list-btn">COMPONENTS</div>
+          <ul class="side-nav-items-list">
+            <li class="side-nav-item">
+              <a href="/components/avatar.html">Avatar</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/alert.html">Alert</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/badge.html">Badge</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/button.html">Button</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/card.html">Card</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/image.html">Image</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/input.html">Input</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/lists.html">Lists</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/modal.html">Modal</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/rating.html">Rating</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/text-utilities.html">Text Utilities</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="/components/toast.html">Toast</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </nav>
+
+    <div class="page-content">
+      <aside class="side-navigation">
+        <div class="getting-started-link">
+          <a href="/getting-started.html">GETTING STARTED</a>
+        </div>
+        <div class="components-list-btn">COMPONENTS</div>
+        <ul class="side-nav-items-list">
+          <li class="side-nav-item">
+            <a href="/components/avatar.html">Avatar</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/alert.html">Alert</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/badge.html">Badge</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/button.html">Button</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/card.html">Card</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/image.html">Image</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/input.html">Input</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/lists.html">Lists</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/modal.html">Modal</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/rating.html">Rating</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="/components/text-utilities.html">Text Utilities</a>
+          </li>
+          <li class="side-nav-item active-side-nav">
+            <a href="/components/toast.html">Toast</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-page-content">
+        <section class="section-content">
+          <h1>Toast</h1>
+          <p>
+            The toast is used to show alerts on top of an overlay. It closes
+            itself when the close button is clicked, or after a timeout. The
+            toast component is used to give feedback to users after an action
+            has taken place.
+          </p>
+          <div class="alert-container">
+            <div class="alert alert-error toast-removed">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi error-icon"
+                width="24"
+                height="24"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M13 13h-2V7h2m0 10h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2z"
+                ></path>
+              </svg>
+              <p>Removed from Cart</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi close-icon"
+                width="20"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <div class="alert alert-success toast-success">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi success-icon"
+                width="24"
+                height="24"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                ></path>
+              </svg>
+              <p>Added to Cart</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi close-icon"
+                width="20"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <div class="alert alert-warning toast-warning">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi warning-icon"
+                width="24"
+                height="24"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M13 13h-2V7h2m0 10h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2z"
+                ></path>
+              </svg>
+              <p>Removed from wishlist</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi close-icon"
+                width="20"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <div class="alert alert-info toast-info">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi info-icon"
+                width="24"
+                height="24"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2z"
+                ></path>
+              </svg>
+              <p>Added to wishlist</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--mdi close-icon"
+                width="20"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </div>
+
+          <pre class="content-container code-container">
+            <code>
+              &lt;!-- removed toast msg&gt;
+              &lt;div class="alert alert-error toast-removed"&gt;
+                &lt;svg class="error-icon" ...&gt; &lt;path ...&gt;&lt;/path&gt; &lt;/svg&gt;
+                &lt;p&gt;Removed from Cart&lt;/p&gt;
+                &lt;svg class="close-icon"&gt; &lt;path ...&gt;&lt;/path&gt; &lt;/svg&gt;
+              &lt;/div&gt;
+
+
+              &lt;!-- success toast msg&gt;
+              &lt;div class="alert alert-success toast-success"&gt;
+                &lt;svg class="success-icon" ...&gt; &lt;path ...&gt;&lt;/path&gt; &lt;/svg&gt;
+                &lt;p&gt;Added to Cart&lt;/p&gt;
+                &lt;svg class="close-icon"&gt; &lt;path ...&gt;&lt;/path&gt; &lt;/svg&gt;
+              &lt;/div&gt;
+
+
+              &lt;!-- warning toast msg&gt;
+              &lt;div class="alert alert-warning toast-warning"&gt;
+                &lt;svg class="warning-icon" ...&gt; &lt;path ...&gt;&lt;/path&gt; &lt;/svg&gt;
+                &lt;p&gt;Removed from wishlist&lt;/p&gt;
+                &lt;svg class="close-icon"&gt; &lt;path ...&gt;&lt;/path&gt; &lt;/svg&gt;
+              &lt;/div&gt;
+
+
+              &lt;!-- toast info&gt;
+              &lt;div class="alert alert-info toast-info"&gt;
+                &lt;svg class="info-icon" ...&gt; &lt;path ...&gt;&lt;/path&gt; &lt;/svg&gt;
+                &lt;p&gt;Added to wishlist&lt;/p&gt;
+                &lt;svg class="close-icon"&gt; &lt;path ...&gt;&lt;/path&gt; &lt;/svg&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
